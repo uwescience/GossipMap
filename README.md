@@ -28,11 +28,10 @@ Below is a modified instruction from the 'Writing Your Own Apps' section for Gos
 
 2. on multiple machines, you could run GossipMap by using "mpiexec" command.  All of the machines should be installed GraphLab PowerGraph and MPI.
     - [Usage] > mpiexec -f machines /path/to/GossipMap --graph <graph-data> --thresh <threshold> --maxiter <maxIter> --maxspiter <maxSuperIter> --trials <# trials> --mode <1 or 2> --outmode <1 or 2> --ncpus <nCores>
-
     - 'machines' is a file which contains the hostnames of the machines used for running GossipMap.
-	The command will generate 1 process on each machine represented in 'machines' unless specified.
-    If you want to specify the number of MPI processes, you can add '-n <nProcs>' options, such as "mpiexec -n 4 -f machines ..." 
-    We recommend use the number of less than or equal to the number of machines for <nProcs> value when you use '-n' option for better performance.
+	- The command will generate 1 process on each machine represented in 'machines' unless specified.
+    - If you want to specify the number of MPI processes, you can add '-n <nProcs>' options, such as "mpiexec -n 4 -f machines ..." 
+    - We recommend to use the number of less than or equal to the number of machines for <nProcs> value when you use '-n' option for better performance.
 
 The arguments for GossipMap are following:
 
@@ -96,5 +95,6 @@ If you want to contact us about GossipMap, you can contact us at:
     
 * Seung-Hee Bae: shbae@cs.washington.edu
 * Bill Howe: billhowe@cs.washington.edu
+
 
 Copyright (C) since 2014,  Seung-Hee Bae, Bill Howe, Database Group at the University of Washington
