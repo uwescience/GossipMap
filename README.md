@@ -83,10 +83,10 @@ There are also some arguments related to GraphLab options.
 
 If you would like to add a reference for this application in documents, please put the following bibliography information:
 
-    Seung-Hee Bae and Bill Howe, 
-    "GossipMap: A Distributed Community Detection Algorithm for Billion-Edge Directe Graphs,"
-    In *Proceedings of International Conference on High Performance Computing, 
-	Networking, Storage and Analysis (SC'15)*, 2015 [accepted]
+Seung-Hee Bae and Bill Howe, 
+"GossipMap: A Distributed Community Detection Algorithm for Billion-Edge Directe Graphs,"
+In *Proceedings of International Conference on High Performance Computing, 
+Networking, Storage and Analysis (SC'15)*, 2015 [accepted]
 
 
 ## Contact Information
